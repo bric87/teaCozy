@@ -1,3 +1,136 @@
 html{
-    font-size: 16px;
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
+p{
+    margin-top:0px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    margin:0px;
+    padding:0px;
+}
+li{
+    list-style-type: none;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+#fixed-head {
+    position: fixed;
+    top:0px;
+    width: 100%;
+    display:flex;
+    background-color: black;
+    height:69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+nav{
+    display: inline-flex;
+    justify-content: flex-end; 
+    width: 100%;
+    margin-right:10px;
+
+}
+
+ul{
+    display:flex;
+}
+
+#logo{
+    margin-left: 10px;
+    height: 50px;
+}
+
+#missionImage{
+    height: 700px;
+}
+
+#mission{
+}
+
+#banner{
+    width: 1200px;
+    background-color:black;
+    position: absolute;
+    top:300px;
+}
+
+#month img{
+    width:300px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+#month{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#imgContainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#locations{
+    height: 500px;
+    width: auto;
+    background-image: url("/Users/Patrick/Desktop/CodeProjects/teaCozy/media/img-locations-background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#locationContainer div{
+    width: 300px;
+    background-color: black;
+    margin-top: 0px;
+}
+
+#locationContainer{
+    display: flex;
+    /*margin: 0 auto;
+    width: 980px;*/
+}
+
+#locationHeader{
+   /*width: 100%;
+   height:auto;*/
+   margin-bottom:15px;
+   margin-top:0;
+}
+
+#loc2, #loc3{
+    margin-left:40px;
+}
+
+#contact{
+    height: 200px;
+}
+
+footer{
+    margin-left: 20px;
+    text-align: left;
+}
+
