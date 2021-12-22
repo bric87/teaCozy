@@ -58,19 +58,30 @@ ul{
     height: 50px;
 }
 
-#missionImage{
-    height: 700px;
+#month h2{
+    margin-block-end: 15px;
+}
+#month h4{
+    margin-block-start: 0px;
+    margin-block-end: 30px;
 }
 
+
 #mission{
+    height: 700px;
+    background-image: url("/Users/Patrick/Desktop/CodeProjects/teaCozy/media/img-mission-background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #banner{
     width: 1200px;
     background-color:black;
-    position: absolute;
-    top:300px;
 }
+
 
 #month img{
     width:300px;
